@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">我喜欢赵丽颖</string>
+    <string name="about">安卓(Android) 是一种基于Linux内核(不包含GNU组件)的自由及开放源代码的
+    操作系统。主要使用于移动设备，如智能手机和平板电脑，由美国Google公司和开放手机联盟领导及开发。Android
+    操作系统最初由Andy Rubin开发，主要支持手机。2005 年8月由Google收购注资。2007年11月，Google 与84
+    家硬件制造商、软件开发商及电信营运商组建开放手机联盟共同研发改良Android系统。随后Google以Apache开
+    源许可证的授权方式，发布了Android 的源代码。第一部Android智能手机发布于2008年10月。Android逐渐扩展
+    到平板电脑及其他领域上，如电视、数码相机、游戏机、智能手表等。2011 年第- -季度，Android 在全球的市场份
+    额首次超过塞班系统，跃居全球第一- 。2013 年的第四季度, Android平台手机的全球市场份额已经达到78.1%。2013
+    年09月24日谷歌开发的操作系统Android在迎来了5岁生日，全世界采用这款系统的设备数量已经达到10亿台。
+    </string>
+
+    <string name="button_send">Send</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="reminder">Reminder name</string>
+    <string name="done">Done</string>
+    <string name="table_layout_4_open">Open</string>
+    <string name="table_layout_4_open_shortcut">Ctrl-O</string>
+    <string name="table_layout_4_save">Save as</string>
+    <string name="table_layout_4_save_shortcut">Ctrl-Shift-S</string>
+    <string name="title_activity_test_table_layout2">TestTableLayout2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title">自动补全联系人</string>
+    <string name="name">联系人</string>
+    <string name="currenttime">当前时间</string>
+</resources>

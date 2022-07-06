@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0, 3"
+    >
+
+    <TableRow android:id="@+id/tablerow1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView/>
+        <TextView android:text="账号："
+            android:id="@+id/textview1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="50px"
+            android:gravity="center"/>
+        <EditText android:id="@+id/edittext1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30px"
+            android:minWidth="200px"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/tablerow2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView/>
+        <TextView android:text="密码："
+            android:id="@+id/textview2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="50px"
+            android:gravity="center"/>
+        <EditText android:id="@+id/edittext2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="24px"
+            android:minWidth="200px"
+            android:inputType="textPassword"/>
+        <TextView/>
+    </TableRow>
+
+    <TableRow android:id="@+id/tablerow3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView/>
+        <Button
+            android:text="登录"
+            android:id="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:text="注册"
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView/>
+    </TableRow>
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:text="@string/table_layout_4_open"-->
+<!--            android:padding="3dip" />-->
+<!--        <TextView-->
+<!--            android:text="@string/table_layout_4_open_shortcut"-->
+<!--            android:gravity="right"-->
+<!--            android:padding="3dip" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow>-->
+<!--        <TextView-->
+<!--            android:text="@string/table_layout_4_save"-->
+<!--            android:padding="3dip" />-->
+<!--        <TextView-->
+<!--            android:text="@string/table_layout_4_save_shortcut"-->
+<!--            android:gravity="right"-->
+<!--            android:padding="3dip" />-->
+<!--    </TableRow>-->
+</TableLayout>

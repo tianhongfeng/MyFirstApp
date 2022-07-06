@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>无线和网络</item>
+        <item>设备连接</item>
+        <item>应用和通知</item>
+        <item>电池</item>
+        <item>显示</item>
+        <item>声音</item>
+        <item>使用指纹</item>
+        <item>悬浮导航</item>
+        <item>存储</item>
+        <item>安全和隐私</item>
+        <item>用户和账户</item>
+        <item>智能辅助</item>
+    </string-array>
+
+</resources>

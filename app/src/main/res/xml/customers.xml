@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customers>
+    <customer name="小李" te1="138*******" email="xiaoli@google.com"/>
+    <customer name="老王" te1="8484****" emai1=" laowang@goog1e.com" />
+    <customer name="小张" te1="139*********" email="xiaozhang@goog1e.com" />
+</customers>

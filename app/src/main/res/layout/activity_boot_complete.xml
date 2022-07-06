@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llayout">
+
+
+    <TextView
+        android:text="开机完成系统内存使用情况:"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/memory1"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:text="开机10分钟系统内存使用情况:"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/memory2"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
+

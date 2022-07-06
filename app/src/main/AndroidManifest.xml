@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myfirstapp">
+    <!-- 添加操作闪光灯的权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- 添加操作振动器的权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".BootCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayMusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadMp3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BookkeepingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneSettingActivity"
+            android:exported="false" /> <!-- <activity android:name=".FirstActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="test_action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhoneBrightnessAdjustActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".MainActivity$DetailActivity" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="详细内容" /> -->
+        <activity
+            android:name=".HeadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestFrameLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestTableLayout2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TestTableLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestRelativeLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestLinearLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContentActivity"
+            android:label="详细内容"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".BillProvider"
+            android:authorities="com.tian.billProvider"
+            android:exported="true" />
+
+        <service android:name=".CurrentTimeService" />
+        <service android:name=".CurrentTimeService1" />
+        <service android:name=".CurrentTimeService2" />
+        <service android:name=".CurrentTimeService3" />
+        <service android:name=".MucicService" /> <!-- 静态注册广播 -->
+<!--        <receiver-->
+<!--            android:name="com.example.myfirstapp.BooBootCompleteReceiver"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.BOOT_COMPLETED" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+    </application>
+
+</manifest>

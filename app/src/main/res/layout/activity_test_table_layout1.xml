@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px">
+    <!--第1行-->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textView1"
+                android:text="2022.6.22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="40px"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:src="@drawable/gymnasium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:maxHeight="200px"
+                android:maxWidth="200px"
+                android:adjustViewBounds="true"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:src="@drawable/gymnasium"
+                android:layout_marginLeft="50px"
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:scaleType="fitEnd"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:src="@drawable/gymnasium"
+                android:layout_marginLeft="50px"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                app:tint="#77ff0000" />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="40px"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:src="@drawable/gymnasium"
+                android:layout_width="200px"
+                android:layout_height="200px"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:src="@drawable/gymnasium"
+                android:layout_marginLeft="40px"
+                android:layout_width="200px"
+                android:layout_height="200px"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:src="@drawable/gymnasium"
+                android:layout_marginLeft="40px"
+                android:layout_width="200px"
+                android:layout_height="200px"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imageView7"
+                android:src="@drawable/gymnasium"
+                android:layout_weight="1"
+                android:layout_margin="40px"
+                android:layout_width="200px"
+                android:layout_height="200px"/>
+
+            <TextView
+                android:id="@+id/textview2"
+                android:text="转到音乐"
+                android:gravity="center_vertical"
+                android:layout_weight="3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20px">
+            <ImageView
+                android:id="@+id/imageView8"
+                android:src="@drawable/gymnasium"
+                android:layout_marginLeft="20px"
+                android:layout_width="200px"
+                android:layout_height="200px"/>
+
+            <TextView
+                android:id="@+id/textview3"
+                android:text="电子邮件"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+
+    </TableRow>
+
+    </TableLayout>

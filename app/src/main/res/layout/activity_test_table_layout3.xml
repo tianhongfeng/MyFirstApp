@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:id="@+id/tablerow1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView/>
+        <TextView android:text="会员昵称："
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:height="50px"/>
+
+        <EditText android:id="@+id/nickname"
+            android:hint="请输入会员昵称"
+            android:layout_height="wrap_content"
+            android:layout_width="400px"
+            android:singleLine="true"/>
+    </TableRow>
+
+    <TableRow android:id="@+id/tablerow2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView/>
+        <TextView android:text="输入密码："
+            android:id="@+id/textview2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:height="50px"/>
+        <EditText android:id="@+id/pwd"
+            android:layout_height="wrap_content"
+            android:layout_width="300px"
+            android:inputType="textPassword"/>
+        <TextView/>
+    </TableRow>
+
+    <TableRow android:id="@+id/tablerow4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView/>
+        <TextView android:text="E-mail："
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:height="50px"/>
+        <EditText android:id="@+id/email"
+            android:layout_height="wrap_content"
+            android:layout_width="300px"
+            android:inputType="textEmailAddress"/>
+        <TextView/>
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text="注册"
+            android:id="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <Button
+            android:text="重置"
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/gymnasium"
+            android:onClick="myclick"
+            />
+    </LinearLayout>
+</TableLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/llayout">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="记账"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载歌曲"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放音乐"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开机自启动"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/button8"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="发送广播"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button9"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="发送顺序广播"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button10"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="发送本地广播"/>-->
+
+
+
+</LinearLayout>
+

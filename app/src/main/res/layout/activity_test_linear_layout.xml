@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/to" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/subject" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/edit_message" />
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_gravity="center_horizontal|center_vertical"-->
+<!--        android:text="@string/button_send" />-->
+
+    <TextView
+        android:id="@+id/txtOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/txt_rectborder"
+        android:layout_weight="1"
+        android:text="矩形边框的TextView" />
+
+    <TextView
+        android:id="@+id/txtTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/txt_radiuborder"
+        android:layout_weight="1"
+        android:text="圆角边框的TextView" />
+
+</LinearLayout>
